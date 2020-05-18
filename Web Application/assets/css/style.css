@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Quicksand:300,500);
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.42em;
+	color:#A7A1AE;
+	background-color:#1F2739;
+}
+
+h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-size:3em;
+	font-weight: 500;
+	line-height:1em;
+	text-align: center;
+	color: #4DC3FA;
+}
+
+h2 {
+	font-size:2em; 
+	font-weight: 300;
+	text-align: center;
+	display: block;
+	line-height:1em;
+	padding-bottom: 1em;
+	color: #FB667A;
+}
+
+.yellow { color: #FFF842; }
+
+.recordTable th h1 {
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	color: #185875;
+}
+
+.recordTable td {
+	font-size: 1.5em;
+	font-weight: normal;
+	-webkit-box-shadow: 0 2px 2px -2px #0E1119;
+	-moz-box-shadow: 0 2px 2px -2px #0E1119;
+	box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.recordTable {
+	text-align: left;
+	overflow: hidden;
+	width: 80%;
+	margin: 0 auto;
+	display: table;
+	padding: 0 0 1em 0;
+}
+
+.recordTable td, .recordTable th {
+	padding-bottom: 2%;
+	padding-top: 2%;
+	padding-left:2%;	
+}
+	
+.recordTable tr:nth-child(odd) {
+	background-color: #323C50;
+}
+		
+.recordTable tr:nth-child(even) {
+	background-color: #2C3446;
+}
+
+.recordTable th {
+	background-color: #1F2739;
+}
+
+.recordTable td:first-child { color: #FB667A; }
+.recordTable th:hover {
+	background-color: #FFF842;
+	color: #403E10;
+	font-weight: bold;
+	box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+	transform: translate3d(6px, -6px, 0);
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: line;
+}
+.recordTable tr:hover {
+	 background-color: #464A52;
+	-webkit-box-shadow: 0 6px 6px -6px #0E1119;
+	-moz-box-shadow: 0 6px 6px -6px #0E1119;
+	box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+.recordTable td:hover {
+	background-color: #FFF842;
+	color: #403E10;
+	font-weight: bold;			
+	box-shadow: #7F7C21 -1px 1px, #7F7C21 -2px 2px, #7F7C21 -3px 3px, #7F7C21 -4px 4px, #7F7C21 -5px 5px, #7F7C21 -6px 6px;
+	transform: translate3d(6px, -6px, 0);
+	transition-delay: 0s;
+	transition-duration: 0.4s;
+	transition-property: all;
+	transition-timing-function: line;
+}
+
+@media (max-width: 800px) {
+	.recordTable td:nth-child(4),
+	.recordTable th:nth-child(4) { display: none; }
+}
