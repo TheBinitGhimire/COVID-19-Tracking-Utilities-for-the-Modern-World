@@ -27,10 +27,10 @@ You can view our presentation slides at "**A Day of Code**" event here: [Google 
 
 ## Our Project Files (the ones developed and presented during the event):
 
-### 1. COVID-19 Tracking Web Application [/ORIGINAL/Web Application](ORIGINAL/Web Application/):
+### 1. COVID-19 Tracking Web Application [/ORIGINAL/Web Application](https://github.com/TheBinitGhimire/COVID-19-Tracking-Utilities-for-the-Modern-World/tree/master/ORIGINAL/Web%20Application):
 The "**Web Application**" directory inside the "**ORIGINAL**" directory consists of the PHP-based web application which we developed during the event, and requires users to have their own server to deploy and experience the web application. The **index.php** file is the main web application which we built for tracking the COVID-19 data worldwide. The web application obtains the IP addresses of visitors, determines the country from the obtained IP addresses and displays the COVID-19 data from their countries and the entire world as a whole. The other files in the assets directory are the web assets (images and stylesheets) of our project.
 
-### 2. COVID-19 Tracking Command-line Utility [/ORIGINAL/Command-line Utility/](ORIGINAL/Command-line Utility/):
+### 2. COVID-19 Tracking Command-line Utility ([/ORIGINAL/Command-line Utility/](https://github.com/TheBinitGhimire/COVID-19-Tracking-Utilities-for-the-Modern-World/tree/master/ORIGINAL/Command-line%20Utility)):
 The "**Command-line Utility**" directory inside the "**ORIGINAL**" directory consists of the Python-based command-line utility which we developed during the event. To use our Command-line Utility, you need to have Python 3.x installed on your computer. You will also have to install different Python modules as mentioned in the **requirements.txt** file in the same directory. Then, you can just enter the following command in any command-line window to obtain the COVID-19 tracking data:
 
 i. **Global Information**: **`python main.py`**	
@@ -39,7 +39,8 @@ ii. **Certain Country's Information**: **`python main.py <country_code>`**
 > i.e. For Nepal: **`python main.py np`**
 
 ## Further Enhancements and Improvements:
-### 1. COVID-19 Tracking Web Application 2.0 [/REINFORCED/Web Application 2.0/](REINFORCED/Web Application 2.0/):
+
+### 1. COVID-19 Tracking Web Application 2.0 ([/REINFORCED/Web Application 2.0/](https://github.com/TheBinitGhimire/COVID-19-Tracking-Utilities-for-the-Modern-World/tree/master/REINFORCED/Web%20Application%202.0)):
 This is a newer version of the COVID-19 Tracking Web Application, which is fully client-side, and the users who would like to try out the codes don't have to own their own server or build a local server to experience the features of the web application. The **index.html** file is the main/index page for the web application, and it is powered by the **script.js** file which is present inside the `assets/js/` directory.
 
 ### Reference Terminologies:
