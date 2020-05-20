@@ -21,10 +21,10 @@ function startTracking(){
 $.get("https://api.ipify.org/?format=json", {"ip":"data"})
 	.done(function(getIP){
 		fetch("https://ipapi.co/"+getIP.ip+"/country_code")
-        .then(response => response.text())
-        .then((response) => {
-            localData(response)
-        })
+			.then(response => response.text())
+			.then((response) => {
+				localData(response)
+			})
 	});
 
 function worldwideData(){
