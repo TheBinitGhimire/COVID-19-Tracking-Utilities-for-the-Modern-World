@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>COVID-19 Tracking Web Application for the Modern World</title>
+	<link rel="icon" href="./assets/img/icon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="preload" href="./assets/js/script.js" as="script">
+</head>
+<body onload="startTracking()">
+
+<h1>COVID-19 <span class="yellow">Tracking Web Application</span></h1>
+<h2>This utility is brought to you by <strong>U-TEC 31337</strong>.</h2>
+
+<table class="recordTable">
+	<thead>
+		<tr>
+			<th><h1>Statistics</h1></th>
+			<th><h1>Global</h1></th>
+			<th><h1>Local</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Total Active</td>
+			<td><span id="ta1"></span></td>
+			<td><span id="ta2"></span></td>
+		</tr>
+		<tr>
+			<td>New Confirmed</td>
+			<td><span id="nc1"></span></td>
+			<td><span id="nc2"></span></td>
+		</tr>
+		<tr>
+			<td>New Deaths</td>
+			<td><span id="nd1"></span></td>
+			<td><span id="nd2"></span></td>
+		</tr>
+		<tr>
+			<td>Total Confirmed</td>
+			<td><span id="tc1"></span></td>
+			<td><span id="tc2"></span></td>
+		</tr>
+		<tr>
+			<td>Total Serious</td>
+			<td><span id="ts1"></span></td>
+			<td><span id="ts2"></span></td>
+		</tr>
+		<tr>
+			<td>Total Recovered</td>
+			<td><span id="tr1"></span></td>
+			<td><span id="tr2"></span></td>
+		</tr>
+		<tr>
+			<td>Total Unresolved</td>
+			<td><span id="tu1"></span></td>
+			<td><span id="tu2"></span></td>
+		</tr>
+		<tr>
+			<td>Total Deaths</td>
+			<td><span id="td1"></span></td>
+			<td><span id="td2"></span></td>
+		</tr>
+	</tbody>
+</table>
+<script type="text/javascript" src="./assets/js/script.js" defer></script>
+</body>
+</html>
