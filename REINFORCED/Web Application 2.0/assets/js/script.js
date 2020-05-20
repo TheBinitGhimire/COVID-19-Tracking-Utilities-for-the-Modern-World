@@ -20,10 +20,11 @@ function startTracking(){
 
 $.get("https://api.ipify.org/?format=json", {"ip":"data"})
 	.done(function(getIP){
-		$.get("http://www.geoplugin.net/json.gp?ip="+getIP.ip, {"geoplugin_countryCode":"data"}, function(getCode){
-			var userCountry = JSON.parse(getCode).geoplugin_countryCode;
-			localData(userCountry);
-		})
+		fetch("https://ipapi.co/"+getIP.ip+"/country_code")
+        .then(response => response.text())
+        .then((response) => {
+            localData(response)
+        })
 	});
 
 function worldwideData(){
